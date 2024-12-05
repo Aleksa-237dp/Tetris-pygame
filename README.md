@@ -1,7 +1,7 @@
 ## Игра "Тетрис" на Python с использованием библиотеки PyGame 🐍
 
-[![](https://img.shields.io/badge/github-blueviolet?style=for-the-badge)](https://github.com/Aleksa-237dp)
-[![](https://img.shields.io/badge/book-green?style=for-the-badge)](https://thecode.media/delaem-tetris-na-python/?ysclid=m30v6vu7o8720064390)
+[![](https://img.shields.io/badge/github(pygame)-blueviolet?style=for-the-badge)](https://github.com/pygame/pygame)
+[![](https://img.shields.io/badge/book(pygame)-green?style=for-the-badge)](https://pygame-docs.website.yandexcloud.net/tut/PygameIntro.html)
 
 
 $\normalsize{\textsf{\color{violet}Я прошла курс "Код Будущего" по направлению "Практическое применение Python в инженерной и научной}}$
