@@ -21,7 +21,7 @@ The pieces fall from above, and the player can rotate them and move them left-ri
 
 | Download the repository |
 
-* In the repository you selected, click the green 'Code' button and copy the URL.
+* In the repository you selected, click the green «Code» button and copy the URL.
 * Then, in Visual Studio Code (or other code editor), open a terminal and type the command:
   
 ```python
