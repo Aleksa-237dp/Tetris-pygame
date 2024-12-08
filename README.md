@@ -34,7 +34,7 @@ The pieces fall from above, and the player can rotate them and move them left-ri
 * Create a virtual environment using the command:
   
 ```python
-  python -m venv env (replace ‘env’ with the desired environment name)
+  python -m venv env (replace 'env' with the desired environment name)
 ```
 
 * Activate the virtual environment in Windows: `env\Scripts\activate`
