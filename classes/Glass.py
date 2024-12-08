@@ -6,14 +6,14 @@ class Glass:
         self.height_cell_amount = 15
         self.size_cell = 40
 
-    # обновление сетки игрового поля
+    # update the playing field grid
     def update_glass(self, grid, shape, x, y, color):
         for row in range(len(shape)):
             for col in range(len(shape[row])):
                 if shape[row][col] == 1:
                     grid[y + row][x + col] = color
 
-    # удаление заполненных линий
+    # delete filled lines
     def remove_lines(self, grid, glass, color, score, screen):
 
         full_lines = []
@@ -26,7 +26,7 @@ class Glass:
             score.change_score(10)
             score.draw_score(screen = screen, glass = glass, color = color['WHITE'])
 
-    # отрисовка игрового поля
+    # rendering of the playing field
     def draw_glass(self, grid, glass, screen, color):
         
         # if len(grid) < glass.height_cell_amount or len(grid[0]) < glass.width_cell_amount:
