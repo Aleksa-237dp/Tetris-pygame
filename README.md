@@ -21,8 +21,8 @@ The pieces fall from above, and the player can rotate them and move them left-ri
 
 | Download the repository |
 
-* In the repository you selected, click the green “Code” button and copy the URL.
-* Then in Visual Studio Code (or other code editor), open a terminal and type the command:
+* In the repository you selected, click the green ‘Code’ button and copy the URL.
+* Then, in Visual Studio Code (or other code editor), open a terminal and type the command:
   
 ```python
   git clone [repository address]
@@ -34,7 +34,7 @@ The pieces fall from above, and the player can rotate them and move them left-ri
 * Create a virtual environment using the command:
   
 ```python
-  python -m venv env (replace 'env' with the desired environment name)
+  python -m venv env (replace ‘env’ with the desired environment name)
 ```
 
 * Activate the virtual environment in Windows: `env\Scripts\activate`
@@ -42,7 +42,7 @@ The pieces fall from above, and the player can rotate them and move them left-ri
   
 | Install dependencies |
 
-* After activating the virtual environment, install the necessary libraries from the `requirements.txt` file
+* After activating the virtual environment, install the required libraries from the `requirements.txt` file
  
 ```python
   pip install -r requirements.txt
@@ -51,7 +51,7 @@ The pieces fall from above, and the player can rotate them and move them left-ri
 | Start the game |
 
 * Navigate to the directory containing the file (usually the root directory of the project) `main.py`
-* Run the game using the command:
+* Start the game using the command:
   
 ```python
   python main.py
@@ -60,6 +60,6 @@ The pieces fall from above, and the player can rotate them and move them left-ri
 | Additional Notes |
   
 * Make sure you have the appropriate version of Python installed, as specified in `requirements.txt`
-* And have all the necessary libraries `pip install pygame` installed.
+* And have all the necessary libraries `pip install pygame` installed
   
-  (If you are using a different IDLE or editor, you may need to configure the environment so that it can find the virtual environment and installed libraries.)
+  (If you are using a different IDE or editor, you may need to configure the environment so that it can find the virtual environment and installed libraries)
