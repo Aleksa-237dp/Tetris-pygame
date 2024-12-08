@@ -8,9 +8,9 @@ $\normalsize{\textsf{\color{violet}I took the Future Code course on "Practical a
 
 
 > [!NOTE]
-> The game “Tetris” was created by Soviet engineer Alexei Pazhitnov in 1984. He came up with this game while working on pattern recognition algorithms at the USSR Academy of Sciences. “Tetris” quickly became popular in the USSR and then conquered the world, becoming one of the best-selling video games in history.
+> The game "Tetris" was created by Soviet engineer Alexei Pazhitnov in 1984. He came up with this game while working on pattern recognition algorithms at the USSR Academy of Sciences. "Tetris" quickly became popular in the USSR and then conquered the world, becoming one of the best-selling video games in history.
 
-🎮 The game “Tetris” is a well-known arcade video game in which the player controls falling geometric pieces called “tetrominoes”, which are made up of four squares.
+🎮 The game "Tetris" is a well-known arcade video game in which the player controls falling geometric pieces called "tetrominoes", which are made up of four squares.
 
 📝 The rules are simple:
 The pieces fall from above, and the player can rotate them and move them left-right (using the keys). Lines filled with blocks disappear and the player gets points (+100). The game ends when the blocks reach the top of the playing field.
@@ -21,7 +21,7 @@ The pieces fall from above, and the player can rotate them and move them left-ri
 
 | Download the repository |
 
-* In the repository you selected, click the green ‘Code’ button and copy the URL.
+* In the repository you selected, click the green 'Code' button and copy the URL.
 * Then, in Visual Studio Code (or other code editor), open a terminal and type the command:
   
 ```python
