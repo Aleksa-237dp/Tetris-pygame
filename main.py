@@ -14,7 +14,7 @@ score = Score()
 
 pygame.init()
 
-# основной игровой цикл
+# the main game cycle
 def run_game():
 
     grid = [[cd.spec_colors['BLACK']] * glass.width_cell_amount for _ in range(glass.width_cell_amount)]
@@ -76,27 +76,4 @@ def run_game():
     pygame.quit()
 
 run_game()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
