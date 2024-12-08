@@ -13,7 +13,7 @@ class ColorsDict:
                             'GREY': (128, 128, 128),
                             'WHITE': (255, 255, 255), }
 
-    # генерация цвета
+    # color generation
     def generate_color(self):
         self.color = self.colors[random.choice(list(self.colors.keys()))]
         return self.color
