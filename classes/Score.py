@@ -7,7 +7,7 @@ class Score:
     def change_score(self, scores):
         self.score += scores
 
-    # отрисовка очков
+    # rendering of glasses
     def draw_score(self, screen, glass, color):
         font = pg.font.Font(None, 40)
 
