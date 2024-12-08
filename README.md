@@ -1,64 +1,65 @@
-## Игра "Тетрис" на Python с использованием библиотеки PyGame 🐍
+## Tetris game in Python using PyGame library 🐍
 
 [![](https://img.shields.io/badge/github(pygame)-blueviolet?style=for-the-badge)](https://github.com/pygame)
 [![](https://img.shields.io/badge/book(pygame)-green?style=for-the-badge)](https://pygame-docs.website.yandexcloud.net/tut/PygameIntro.html)
 
 
-$\normalsize{\textsf{\color{violet}Я прошла курс "Код Будущего" по направлению "Практическое применение Python в инженерной и научной}}$
-$\normalsize{\textsf{\color{violet}деятельности" 2023-2024 гг.}}$
+$\normalsize{\textsf{\color{violet}I took the Future Code course on "Practical applications of Python in engineering and science activities" 2023-2024.}}$
 
 
 > [!NOTE]
-> Игра "Тетрис" была создана советским инженером Алексеем Пажитновым в 1984 году. Он придумал эту игру, работая над алгоритмами распознавания образов в Академии наук СССР. "Тетрис" быстро стал популярен в СССР, а затем завоевал весь мир, став одной из самых продаваемых видеоигр в истории.
+> The game “Tetris” was created by Soviet engineer Alexei Pazhitnov in 1984. He came up with this game while working on pattern recognition algorithms at the USSR Academy of Sciences. “Tetris” quickly became popular in the USSR and then conquered the world, becoming one of the best-selling video games in history.
 
-🎮 Игра "Тетрис" — это всеми известная аркадная видеоигра, в которой игрок управляет падающими геометрическими фигурками, называемыми "тетромино", которые состоят из четырёх квадратов.
+🎮 The game “Tetris” is a well-known arcade video game in which the player controls falling geometric pieces called “tetrominoes”, which are made up of four squares.
 
-📝 Правила просты:
-Фигуры падают сверху, а игрок может вращать их и двигать вправо-влево (с помощью клавиш). Линии, заполненные блоками, исчезают, а игрок получает очки (+100). Игра заканчивается, когда блоки достигают верха игрового поля.
+📝 The rules are simple:
+The pieces fall from above, and the player can rotate them and move them left-right (using the keys). Lines filled with blocks disappear and the player gets points (+100). The game ends when the blocks reach the top of the playing field.
 
 <img src="https://i.ibb.co/vqNHvJY/2024-11-03-035445-1.png" width="700" height="500">
 
-## Инструкции по подключению к игре «Тетрис»
+## Instructions on how to connect to the Tetris game
 
-| Загрузите репозиторий |
+| Download the repository |
 
-* В репозитории, который вы выбрали, нажмите зелёную кнопку "Code" и скопируйте URL-адрес.
-* Затем в Visual Studio Code (или другом редакторе кода) откройте терминал и введите команду:
+* In the repository you selected, click the green “Code” button and copy the URL.
+* Then in Visual Studio Code (or other code editor), open a terminal and type the command:
   
 ```python
-  git clone [адрес репозитория]
+  git clone [repository address]
 ```
 
-| Создайте виртуальную среду |
+| Create a virtual environment |
 
-* Откройте терминал (или командную строку) и перейдите в каталог проекта.
-* Создайте виртуальную среду с помощью команды:
+* Open a terminal (or command line) and navigate to the project directory.
+* Create a virtual environment using the command:
   
 ```python
-  python -m venv env (замените 'env' на желаемое имя среды)
+  python -m venv env (replace 'env' with the desired environment name)
 ```
 
-* Активируйте виртуальную среду в Windows:  `env\Scripts\activate`
-* Или активируйте виртуальную среду в macOS/Linux:  `source env/bin/activate`
+* Activate the virtual environment in Windows: `env\Scripts\activate`
+* Or activate the virtual environment in macOS/Linux: `source env/bin/activate`
   
-| Установите зависимости |
+| Install dependencies |
 
-* После активации виртуальной среды установите необходимые библиотеки из файла `requirements.txt`
+* After activating the virtual environment, install the necessary libraries from the `requirements.txt` file
  
 ```python
   pip install -r requirements.txt
 ```
-| Запустите игру |
 
-* Перейдите в каталог, содержащий файл (обычно это корневой каталог проекта) `main.py`
-* Запустите игру с помощью команды:
+| Start the game |
+
+* Navigate to the directory containing the file (usually the root directory of the project) `main.py`
+* Run the game using the command:
   
 ```python
   python main.py
 ```
-| Дополнительные примечания |
+
+| Additional Notes |
   
-* Убедитесь, что у вас установлена ​​соответствующая версия Python, как указано в `requirements.txt`
-* И установлены все необходимые библиотеки `pip install pygame`
+* Make sure you have the appropriate version of Python installed, as specified in `requirements.txt`
+* And have all the necessary libraries `pip install pygame` installed.
   
-  (Если вы используете другую IDLE или редактор, вам может потребоваться настроить среду так, чтобы она могла найти виртуальную среду и установленные библиотеки.)
+  (If you are using a different IDLE or editor, you may need to configure the environment so that it can find the virtual environment and installed libraries.)
